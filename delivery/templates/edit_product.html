@@ -1,4 +1,4 @@
-<!-- edit_product.html -->
+<!-- edit_product.html
 {% extends 'base.html' %}
 
 {% block title %}Edit Product{% endblock %}
@@ -8,7 +8,8 @@
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
-        <!-- <button type="submit">Save</button> -->
+        <button type="submit">Save</button>
     </form>
-    <!-- <a href="{% url 'create_product' %}">Create New Product</a> -->
-{% endblock %}
+    <a href="{% url 'create_product' %}">Create New Product</a>
+{% endblock %} -->
+<!--  -->

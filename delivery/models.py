@@ -2,7 +2,6 @@ from django.db import models
 
 # Create your models here.
 # delivery/models.py
-from django.db import models
 
 
 # class Client(models.Model):
